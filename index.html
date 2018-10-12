@@ -16,7 +16,10 @@
     
       <div class="container pillsCont">
           <div class="row">
-            <div class="col-md-12 pill-content">
+            <div class="col-md-3 pill-content">
+                <img class="img-fluid rounded-circle border" src="assets/images/brian.jpg" alt="Brian Burch">
+            </div>
+            <div class="col-md-9 pill-content">
               <p>I’m a Full Stack Web Developer in Roswell, Georgia with a creative mindset. </p> 
               <p>I’m also a passionate problem solver who enjoys immersing in difficult programing challenges</p>
             </div>
@@ -33,10 +36,10 @@
                   <div class="tab-pane fade show active" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
                     <ul>
                       <li class="contact-li">
-                        <a href=""><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/bburch05/"><i class="fab fa-linkedin"></i> LinkedIn</a>
                       </li>
                       <li class="contact-li">
-                        <a href=""><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://github.com/Bburch05"><i class="fab fa-github"></i> GitHub</a>
                       </li>
                       <li class="contact-li">
                           <i class="fas fa-envelope-square"></i><span>  bburch05@gmail.com</span>
@@ -48,15 +51,15 @@
                       <div class="col-md-6">
                         <ul>
                           <li>Javascript</li>
-                          <li>Node</li>
-                          <li>Handlebars</li>
+                          <li>Node.js</li>
+                          <li>Handlebars.js</li>
                         </ul>
                       </div>
                       <div class="col-md-6">
                         <ul>
                           <li>jQuery</li>
-                          <li>Express</li>
-                          <li>mySQL</li>
+                          <li>MERN Full-Stack Applications</li>
+                          
                         </ul>
                       </div>
                     </div>
@@ -73,17 +76,19 @@
       <div class="container">
           <div class="row">
               
-              <div class="col-md-12 content">
+              <div class="col-md-12 pill-content">
                   <div id="portfolio" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#portfolio" data-slide-to="0" class="active"></li>
                       <li data-target="#portfolio" data-slide-to="1"></li>
                       <li data-target="#portfolio" data-slide-to="2"></li>
+                      <li data-target="#portfolio" data-slide-to="3"></li>
+                      <li data-target="#portfolio" data-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img class="img-fluid port-image" src="assets/images/burger-time1.jpg" alt="Burger Time">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                           <h5>Burger Time!</h5>
                           <p>A full-stack Burger eating application</p>
                           <button class="btn btn-primary project-info" data-value="0" data-toggle="tooltip" data-placement="top" title="More Info"><i class="fas fa-info-circle"></i></button>
@@ -93,17 +98,37 @@
                       </div>
                       <div class="carousel-item">
                         <img class="img-fluid port-image" src="assets/images/bamazon.gif" alt="Bamazon">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                           <h5>Bamazon</h5>
                           <h6>A Node / mySQL Application that mocks up a simple store interface </h6>
                           <p>Note: is a command line only application</p>
-                          <button class="btn btn-primary project-info" data-value="1" data-toggle="modal" data-target=".project" title="More Info"><i class="fas fa-info-circle"></i></button>
+                          <button class="btn btn-primary project-info" data-value="1" data-toggle="tooltip" data-placement="top" data-target=".project" title="More Info"><i class="fas fa-info-circle"></i></button>
                           <a href="https://github.com/Bburch05/mySQLnodeStore"><i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="View on Github"></i></a>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img class="img-fluid port-image" src="assets/images/gifTastic.png" alt="gifTastic">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img class="img-fluid port-image" src="assets/images/ReactMemory.png" alt="gifTastic">
+                        <div class="carousel-caption d-md-block">
+                          <h5>Spirit Circle Memory Match</h5>
+                          <p>A React Application Game</p>
+                          <button class="btn btn-primary project-info" data-value="4" data-toggle="tooltip" data-placement="top" title="More Info"><i class="fas fa-info-circle"></i></button>
+                          <a href="https://github.com/Bburch05/ReactClickMemory"><i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="View on Github"></i></a>
+                          <a href="https://bburch05.github.io/ReactClickMemory/"><i class="fas fa-play-circle" data-toggle="tooltip" data-placement="top" title="Live Version"></i></a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="img-fluid port-image" src="assets/images/aCommons.PNG" alt="Bamazon">
+                        <div class="carousel-caption d-md-block">
+                          <h5>Atlanta Commons</h5>
+                          <h6>A Full-Stack Application designed to inform communities</h6>
+                          <button class="btn btn-primary project-info" data-value="3" data-toggle="tooltip" data-target=".project" title="More Info"><i class="fas fa-info-circle"></i></button>
+                          <a href="https://github.com/Bburch05/atlanta-commons"><i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="View on Github"></i></a>
+                          <a href="https://polar-reef-55327.herokuapp.com/"><i class="fas fa-play-circle" data-toggle="tooltip" data-placement="top" title="Live Version"></i></a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="img-fluid port-image" src="assets/images/gifTastic.png" alt="Bamazon">
+                        <div class="carousel-caption d-md-block">
                           <h5>GifTastic</h5>
                           <p>A project designed to showcase Gifs from the Giphy API </p>
                           <button class="btn btn-primary project-info" data-value="2" data-toggle="tooltip" data-placement="top" title="More Info"><i class="fas fa-info-circle"></i></button>

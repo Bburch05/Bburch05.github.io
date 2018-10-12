@@ -53,8 +53,24 @@ var gifTastic = new Project(
     "https://bburch05.github.io/GifTastic/"
 )
 
+var aCommons = new Project(
+    "Atlanta Commons",
+    "Atlanta Commons is a Full-Stack Application designed to inform local communities about Events and Issues in their area. In a team of four people, I was responsible for the back-end server routing and Schema setup using a Node Express.js Server using a mySQL database and assisted with front-end Handlebars.js work in a team of four web developers. ",
+    ["Express","Handlebars.js","Javascript", "MySQL"],
+    "https://github.com/Bburch05/atlanta-commons",
+    "https://polar-reef-55327.herokuapp.com/"
+)
 
-var projects = [burgerTime,bamazon,gifTastic];
+var memorySearch = new Project(
+    "Spirit Circle Memory Match",
+    "This app was created to showcase my ability to create a front-end React Application",
+    ["React"],
+    "https://github.com/Bburch05/ReactClickMemory",
+    "https://bburch05.github.io/ReactClickMemory/"
+)
+
+
+var projects = [burgerTime,bamazon,gifTastic,aCommons,memorySearch];
 
 
 $('.project-info').on('click',function(){

@@ -86,3 +86,14 @@ body {
 .project-info {
     background-color: grey;
 }
+
+.modal-content {
+    background-color: rgb(100, 100, 100, 0.9);
+    color: white;
+}
+
+@media only screen and (max-width: 765px) {
+    .carousel-caption {
+        display: block;
+    }
+}
